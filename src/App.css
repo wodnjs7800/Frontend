@@ -1,9 +1,8 @@
 .App {
   display: flex;
-  width: 100%;
+  width: 50%;
 }
 .left{
-  position: fixed;
   margin: 100px 100px;
   float: left;
 }
@@ -12,11 +11,9 @@
 }
 
 .left .text{
-  position: absolute;
-  right: 0;
-  top: 0;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   width: 200px;
 }
 .left .text p{
@@ -36,14 +33,14 @@
   margin: 12px 10px;
 }
 .bar span{
-  margin: 8px;
+  margin: px;
   font-size: 25px;
   margin-left: 150px;
+  margin-top: 8px;
   float: right;
 }
 
 .right{
-  margin-left: 900px;
   background-color: antiquewhite;
   float: right;
   padding: 50px;
@@ -67,7 +64,6 @@
   margin: 10px;
   text-align: left;
 }
-
 
 .col-md-4{
   margin-bottom: 50px;

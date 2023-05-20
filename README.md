@@ -6,7 +6,15 @@
 
 ## 빌드 및 실행 방법
 
-- 빌드 및 실행 방법을 기술하세요.
+- npm install gh-pages --save-dev
+- "predeploy": "npm run build",
+	 "deploy": "gh-pages -d build"
+- git init
+- git add *
+- git commit -m '버전'
+- git remote add origin https://github.com/wodnjs7800/frontend
+- git push -u origin master
+- npm run deploy
 
 ## 테스트 코드 실행 방법 (선택사항)
 
@@ -15,7 +23,7 @@
 
 ## 사용한 패키지와 사용 목적
 
-- 패키지와 패키지를 사용한 이유를 기술하세요.
+- axios를 사용해서 api를 호출하려고 했으나, key을 제대로 사용하지 못해서 "mylist.json"을 사용
 
 ## API
 
